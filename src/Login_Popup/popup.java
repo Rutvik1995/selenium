@@ -33,15 +33,15 @@ public class popup {
         Thread.sleep(2000);
         driver.findElement(By.xpath("//*[@id=\"login\"]/div[2]/button")).click();
         	
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         
         driver.findElement(By.xpath("//*[@id=\"navbarLogin\"]/div/div/div[1]/ul/li[2]/a")).click();
-      Thread.sleep(2000);
+      Thread.sleep(5000);
         driver.findElement(By.xpath("//*[@id=\"signonname\"]")).sendKeys("Rutvik");
         Thread.sleep(2000);
         driver.findElement(By.xpath("//*[@id=\"signonusername\"]")).sendKeys("abc12457");
         Thread.sleep(2000);
-        driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("abc123@gmail.com");
+        driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("abc12390909@gmail.com");
         Thread.sleep(2000);
         driver.findElement(By.xpath("//*[@id=\"signonpassword\"]")).sendKeys("sacstate500");
         Thread.sleep(2000);
